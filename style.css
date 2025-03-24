@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+
+#start a
+{
+    justify-content: center;
+    border: 2px solid black;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    width: 12%;
+    margin: auto;
+    margin-top: 22%;
+    border-radius: 15px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+
+}
+#content
+{
+    height: 200px;
+    width:60%;
+    background-color: #fff;   
+    margin: auto;
+    margin-top: 22%;
+}
+#options button
+{
+    background-color: aqua  ;
+
+}
+#timer
+{
+    height: 30px;
+    width: 30px;
+    background-color: cyan;
+    border-radius: 20px
+}
+
+ 
+
+
+
+
+
+
+
+
