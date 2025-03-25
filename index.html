@@ -9,9 +9,26 @@
 <body>
 
     <div id="start">
-    <a href="index2.html">START QUIZ</a>
+     <button>Start Quiz</button>
     </div>
+
+    <div id="quiz" class="hidden">
+        <div id="question">Questions</div>
+        <div id="timer"></div>
+        <div id="choices">
+            <button class="choices">Choice 1</button>
+            <button class="choices">Choice 2</button>
+            <button class="choices">Choice 3</button>
+            <button class="choices">Choice 4</button>
+        </div>
+        <div id="submit">
+            <button>Submit Answer</button>
+        </div>
+    </div>
+    <div id="score" class="hidden"></div>
+
+
     
-<script src="script.js"></script>    
+<script src="script.js" type="module"></script>    
 </body>
 </html>

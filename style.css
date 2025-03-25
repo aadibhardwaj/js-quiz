@@ -1,55 +1,72 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: antiquewhite;
-}
-
-
-#start a
-{
-    justify-content: center;
-    border: 2px solid black;
+body {
+    font-family: Arial, sans-serif;
     text-align: center;
-    display: flex;
+    background-color: #f4f4f4;
+    margin: 0;
     padding: 20px;
-    width: 12%;
-    margin: auto;
-    margin-top: 22%;
-    border-radius: 15px;
-    color: #000;
+}
+
+.hidden {
+    display: none;
+}
+
+#start button, #submit button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
     background-color: #fff;
-    text-decoration: none;
-
+    color: #000;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 23%;
 }
-#content
-{
-    height: 200px;
-    width:60%;
-    background-color: #fff;   
+
+#quiz {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 23%;
+    max-width: 500px;
     margin: auto;
-    margin-top: 22%;
+    background-color: red;
 }
-#options button
-{
-    background-color: aqua  ;
 
+#question {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+}
+
+#choices button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: cyan;
+}
+
+#choices button:hover {
+    background-color: #f0f0f0;
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 #timer
 {
-    height: 30px;
-    width: 30px;
-    background-color: cyan;
-    border-radius: 20px
+    border: 2px solid black;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 20px;
 }
-
- 
-
-
-
-
-
-
-
-
